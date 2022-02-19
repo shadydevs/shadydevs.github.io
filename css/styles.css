@@ -1,0 +1,90 @@
+/* font-family: 'Kufam', sans-serif;
+
+font-family: 'Lemonada', cursive;
+
+font-family: 'Neonderthaw', cursive;
+
+font-family: 'Noto Nastaliq Urdu', serif;
+
+font-family: 'Reem Kufi', sans-serif;
+
+font-family: 'Roboto', sans-serif; 
+
+font-family: 'Montserrat', sans-serif; 
+
+font-family: 'Abril Fatface', cursive; 
+
+font-family: 'Poiret One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kufam:wght@700&family=Lemonada&family=Montserrat:wght@700&family=Neonderthaw&family=Noto+Nastaliq+Urdu:wght@700&family=Poiret+One&family=Reem+Kufi:wght@700&family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: #ada996; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #b9b9b9
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #b9b9b9
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: rgb(34, 66, 99);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.card {
+    background-color: aliceblue;
+}
+
+.left {
+    color: rgb(0, 72, 60);
+}
+
+.middle {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.right {
+    color: rgb(23, 57, 92);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main > .flex {
+    margin: 10rem 1rem 7rem 3rem;
+}
+
+#quote {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 7rem;
+}
+
+#intro {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    word-spacing: 1rem;
+    line-height: 130%;
+}

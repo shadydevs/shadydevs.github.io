@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/porfolio.css">
+</head>
+
+<body>
+    <nav class="container">
+        <header class="flex">
+            <a href="#" class="left">
+                Portfolio
+            </a>
+
+            <a href="/" class="middle">
+                <span class="left" style="font-family: 'Reem Kufi', sans-serif;">
+                    شادي نسيم
+                </span>
+                <span class="right" style="font-family: 'Abril Fatface', cursive;">
+                    Shady Nessim
+                </span>
+            </a>
+
+            <a href="contact.html" class="right">
+                Contact
+            </a>
+        </header>
+    </nav>
+
+    <div class="flex">
+        <div class="card">
+            <a href="/xo.html">
+                <img src="img/xo-preview.png" alt="tic tac toe preview" style="width:100%">
+            </a>
+            <div class="container">
+                <h4 class="accordion">TIC TAC TOE <span id="expand" style="float: right; font-size: smaller;">(press
+                        to
+                        expand)</span>
+                </h4>
+                <div class="panel">
+                    <p><a href="xo.html">A game of tic tac toe using HTML, CSS & JavaScript</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <a href="landing-page/index.html">
+                <img src="img/landing-page-preview.png" alt="Dynamic landing page preview" style="width:100%">
+            </a>
+            <div class="container">
+                <h4 class="accordion">Dynamic landing page</h4>
+                <div class="panel">
+                    <p>
+                        <a href="landing-page/index.html">
+                            This project is part of the Udacity Front End program.
+                            The HTML and CSS templates were provided as a template by Udacity and modified by me.
+                            I wrote the JavaScript code to manipulate the DOM to add a dynamically adjusting navigation
+                            bar.
+                            <hr> When a section element is added to the HTML, a new navbar link is added automatically
+                            with
+                            the data-nav value as the name. When the link is clicked, the page scrolls to the
+                            appropriate section.
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <a href="https://github.com/shadydevs/THE-PACMAN-PROJECT">
+                <img src="img/pacman-preview.png" alt="Pacman Game preview" style="width:100%">
+            </a>
+            <div class="container">
+                <h4 class="accordion">Pacman Game</h4>
+                <div class="panel">
+                    <p>
+                        <a href="https://github.com/shadydevs/THE-PACMAN-PROJECT">
+                            A clone of the retro-videogame Pacman. This game is developed using C++ and SFML
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
